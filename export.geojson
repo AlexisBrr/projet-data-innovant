@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-06T09:54:10Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9611135117",
+        "description": "Photo rajoutée dans WikiCommons https://commons.wikimedia.org/wiki/File:V%C3%A9loBlanc_Comm%C3%A9moration_26_03_2022_Grenoble.jpg",
+        "historic": "memorial",
+        "inscription": "En mémoire de Florence, cycliste de 38 ans, maman d'une fille de 9 ans, victime d'un accident de circulation le 25 mars 2021",
+        "memorial": "ghost_bike",
+        "name": "Mémorial Vélo Blanc pour Florence",
+        "source": "https://www.francebleu.fr/infos/faits-divers-justice/un-hommage-sur-fond-de-revendication-un-apres-l-accident-mortel-d-une-cycliste-a-grenoble-1648294784",
+        "start_date": "2022-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7164506,
+          45.1801533
+        ]
+      },
+      "id": "node/9611135117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11002892805",
+        "description": "Photo déposée dans WikiCommons : https://commons.wikimedia.org/wiki/File:V%C3%A9loBlanc_Comm%C3%A9moration_24_06_2023_Grenoble.jpg",
+        "historic": "memorial",
+        "inscription": "Il allait au collège comme tous les matins. Alek 2008-2022",
+        "memorial": "ghost_bike",
+        "name": "Mémorial Vélo Blanc pour Alek",
+        "panoramax": "7ba35907-7ec8-4d2d-b25e-5908e9510e52",
+        "start_date": "2023-06-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7180461,
+          45.1772533
+        ]
+      },
+      "id": "node/11002892805"
+    }
+  ]
+}
