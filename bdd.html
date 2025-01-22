@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Etude de l'accidentologie à vélo et des voies cyclables de la commune de Grenoble - Le but du projet</h1>
+            <h1>Etude de l'accidentologie à vélo et des voies cyclables de la commune de Grenoble - Tableau de bord pour les acteurs de la base de données des accidents de vélo</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Le but du projet</a></li>
@@ -23,12 +23,31 @@
         </div>
     </header>
     <main>
-        <p>hihihihihi</p>
+        <div class="container">
+            <h2>Tableau de bord interactif</h2>
+            <!-- Conteneur pour le tableau de bord Tableau -->
+            <div id="tableauViz"></div>
+        </div>
     </main>
     <footer>
         <div class="container">
             <p>&copy; Les Datavengers - 2025</p>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        // URL du tableau de bord publié sur Tableau Public ou votre serveur Tableau
+        var tableauUrl = "URL_DU_TABLEAU_DE_BORD";
+
+        var options = {
+            hideTabs: true,
+            hideToolbar: true,
+            width: "100%",
+            height: "600px"
+        };
+
+        var vizContainer = document.getElementById("tableauViz");
+        var viz = new tableau.Viz(vizContainer, tableauUrl, options);
+    </script>
 </body>
 </html>
