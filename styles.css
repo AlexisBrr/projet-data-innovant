@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* Remplacez par la police utilisée sur le site de Grenoble */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0055A4; /* Couleur principale du site de Grenoble */
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tableau de bord - Ville de Grenoble</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Intégration de l'API d'intégration de Tableau -->
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>Ville de Grenoble</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Vivre à Grenoble</a></li>
+                    <li><a href="#">Institution</a></li>
+                    <li><a href="#">Actions et projets</a></li>
+                    <li><a href="#">Gremag</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Tableau de bord interactif</h2>
+            <!-- Conteneur pour le tableau de bord Tableau -->
+            <div id="tableauViz"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ville de Grenoble. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // URL du tableau de bord publié sur Tableau Public ou votre serveur Tableau
+        var tableauUrl = "URL_DU_TABLEAU_DE_BORD";
+
+        var options = {
+            hideTabs: true,
+            hideToolbar: true,
+            width: "100%",
+            height: "600px"
+        };
+
+        var vizContainer = document.getElementById("tableauViz");
+        var viz = new tableau.Viz(vizContainer, tableauUrl, options);
+    </script>
 </body>
 </html>
