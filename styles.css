@@ -35,7 +35,10 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 main {
     padding: 20px 0;
 }
@@ -53,4 +56,24 @@ footer {
 .tableauPlaceholder{
 width: 100%;
 margin: auto;
+}
+
+.intro{
+    text-align: center;
+    line-height: 3;
+    font-weight: 500;
+}
+
+.contexte{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.ciblesObjectifs{
+    text-align: justify;
+    margin-left: 2rem;
+    line-height: 2;
+    font-weight: 500;
 }
