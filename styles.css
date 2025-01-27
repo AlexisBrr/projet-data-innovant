@@ -46,10 +46,8 @@ main {
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center; /* Centrage horizontal du texte */
-    height: 20px; /* Hauteur réduite */
-    font-size: 0.7rem; /* Réduction de la taille de police */
-    line-height: 20px; /* Hauteur de ligne égale à la hauteur du footer pour un centrage vertical */
+    text-align: center;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
