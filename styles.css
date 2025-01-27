@@ -46,12 +46,10 @@ main {
 footer {
     background-color: #333;
     color: #fff;
-    display: flex;
-    align-items: center; /* Centrage vertical */
-    justify-content: center; /* Centrage horizontal */
+    text-align: center; /* Centrage horizontal du texte */
     height: 20px; /* Hauteur réduite */
     font-size: 0.7rem; /* Réduction de la taille de police */
-    line-height: 20px; /* Hauteur de ligne ajustée pour centrer verticalement */
+    line-height: 20px; /* Hauteur de ligne égale à la hauteur du footer pour un centrage vertical */
     position: fixed;
     width: 100%;
     bottom: 0;
