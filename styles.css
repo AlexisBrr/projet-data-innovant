@@ -51,7 +51,7 @@ footer {
     justify-content: center; /* Centrage horizontal */
     height: 20px; /* Hauteur réduite */
     font-size: 0.7rem; /* Réduction de la taille de police */
-    line-height: 1; /* Hauteur de ligne ajustée pour centrer verticalement */
+    line-height: 20px; /* Hauteur de ligne ajustée pour centrer verticalement */
     position: fixed;
     width: 100%;
     bottom: 0;
