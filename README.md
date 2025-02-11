@@ -183,6 +183,6 @@ Maintenant, il faut retourner sur la page des tableaux de bord et *cliquer* sur 
 
 ## Etape 7 - Mettre à jour les données si actualisation des jeux de données
 
-Si les jeu de données sont voués à évoluer et à se mettre à jour. Il suffit de télécharger la dernière version des jeux de données et d'actualiser les extraits de données. Les changement se répliqueront sur les tableaux de bord.
+Si les jeu de données sont voués à évoluer et à se mettre à jour. Il suffit de télécharger la dernière version des jeux de données et d'actualiser les extraits de données. Les changements se répliqueront sur les tableaux de bord.
 
 ***-------> Pour en savoir plus concernant le contexte et le but de ce projet, se référer au wiki présent sur ce répertoire GitHub<-------***
