@@ -4,7 +4,15 @@ body {
     padding: 0;
     /*color: #333;*/
     color:#fff;
-    background: linear-gradient(225deg, #efeff6 0%, #404040 100%);
+    background: linear-gradient(135deg, #e0f7ff, #80aaff);
+    background-size: 400% 400%;
+    animation: gradientBG 20s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 header {
@@ -50,14 +58,23 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
 }
 
 .tableauPlaceholder{
     width: 100%;
-    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableauViz {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .intro{
@@ -85,7 +102,8 @@ html {
 }
 
 .part {
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -96,9 +114,19 @@ html {
     transform: translateY(0);
 }
 
-.part div {
-    height: 80vh;
-    width: 95vw;
+
+/* .card-body {
+    background-color: #333333ee;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    height: 60vh;
+    box-shadow: 2px 7px 13px 0px #333;
+} */
+
+
+.card {
+    width: 80%;
     margin: auto;
 }
 .team-section {
@@ -139,4 +167,91 @@ html {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Ombre portée pour un effet subtil */
     font-size: 22px; /* Taille de la police du texte */
     color: #333;
+}
+
+.card-body {
+    width: 100%;
+    height: 200px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: auto;
+    /* min-height: 600px; */
+}
+
+.tabviz {
+    margin: auto;
+    display: grid;
+}
+
+.tabviz h2{
+    font-size: 1.5rem;
+    background-color: #ffffffed;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #000000;
+    box-shadow: 0 4px 10px #262626;
+    font-weight: 100;
+    text-align: center;
+}
+
+.vizpart{
+    background: none;
+    background-color: #fff;
+}
+
+.coms {
+    color: #000000;
+    clear: both;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 1.5rem;
+    background-color: #ededed;
+    max-width: 80%;
+    border-radius: 1rem;
+}
+
+.coms p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.part.vizpart {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px; 
+}
+
+.part.vizpart .card .card-body {
+    /* height: 80vh !important; */
+    margin: auto;
+}
+
+.tableauPlaceholder {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1000 / 827; /* ou padding-bottom: 82.7%; */
+}
+.tableauViz {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body p, .intro{
+    color: #000000;
+    font-weight: 100;
 }
