@@ -5,6 +5,7 @@ body {
     /*color: #333;*/
     color:#fff;
     background: linear-gradient(225deg, #efeff6 0%, #404040 100%);
+}
 
 header {
     background-color: #0055A4; /* Couleur principale du site de Grenoble */
@@ -55,8 +56,8 @@ footer {
 }
 
 .tableauPlaceholder{
-width: 100%;
-margin: auto;
+    width: 100%;
+    margin: auto;
 }
 
 .intro{
@@ -99,4 +100,43 @@ html {
     height: 80vh;
     width: 95vw;
     margin: auto;
+}
+.team-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.team-member {
+    flex-basis: 20%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.commentary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 50%;
+    background-color: #f9f9f9; /* Couleur de fond des commentaires */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Ombre portée pour un effet subtil */
+    font-size: 22px; /* Taille de la police du texte */
+    color: #333;
 }
